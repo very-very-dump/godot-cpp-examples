@@ -1,0 +1,11 @@
+CompileFlags:
+  Add: [
+    -Wno-unknown-warning-option,
+    -Igodot-cpp/gen/include,
+    -Igodot-cpp/include/godot_cpp,
+    -Igodot-cpp/include/classes,
+    -Igodot-cpp/include/core,
+    -Igodot-cpp/include/templates,
+    -Igodot-cpp/include/variant,
+    ]
+  Remove: ['-m*', '-f*']   
