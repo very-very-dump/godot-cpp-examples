@@ -6,6 +6,10 @@
 
 	Github: https://github.com/godotengine/godot
 
+* godot-cpp
+	
+  	Github: https://github.com/godotengine/godot-cpp/
+
 ##
 
 * SConstruct
