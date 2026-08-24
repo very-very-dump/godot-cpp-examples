@@ -103,8 +103,39 @@
 * Compile the godot-cpp
 
 ```
-scons platform=auto api_version=4.7 generate_bindings=yes
+scons platform=macos api_version=4.7
 ```
+```
+scons platform=ios api_version=4.7
+```
+```
+scons platform=windows api_version=4.7
+```
+```
+scons platform=linux api_version=4.7
+```
+```
+scons platform=android api_version=4.7
+```
+
+
+* Compile the godot-cpp for editor (this important so no error highlight for clangd)
+```
+scons platform=macos target=editor compiledb=yes
+```
+```
+scons platform=ios target=editor compiledb=yes
+```
+```
+scons platform=windows target=editor compiledb=yes
+```
+```
+scons platform=linux target=editor compiledb=yes
+```
+```
+scons platform=android target=editor compiledb=yes
+```
+
 Change the '4.7' version of your godot engine [godotengine](https://godotengine.org/)
 
 #
@@ -143,13 +174,6 @@ scons platform=android
 
 #
 
-* platform=auto (automatic get your devices platform, and Default template_debug)
-```
-scons platform=auto
-```
-
-#
-
 * arch=(what architecture)
 ```
 scons platform=auto arch=x86_64
@@ -164,12 +188,6 @@ scons platform=auto arch=arm64
 scons platform=auto arch=arm32
 ```
 
-#
-
-* arch=auto (automatic get your architecture)
-```
-scons platform=auto arch=auto
-```
 
 #
 
