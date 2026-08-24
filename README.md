@@ -195,14 +195,38 @@ scons platform=auto arch=arm32
 
 * target=template_debug (Debugging your library)
 ```
+scons platform=macos target=template_debug
+```
+```
+scons platform=ios target=template_debug
+```
+```
 scons platform=windows target=template_debug
+```
+```
+scons platform=linux target=template_debug
+```
+```
+scons platform=android target=template_debug
 ```
 
 #
 
 * target=template_release (uses for final library or final game)
 ```
-scons platform=auto target=template_release
+scons platform=macos target=template_release
+```
+```
+scons platform=iostarget=template_release
+```
+```
+scons platform=windows target=template_release
+```
+```
+scons platform=linux target=template_release
+```
+```
+scons platform=android target=template_release
 ```
 #
 
