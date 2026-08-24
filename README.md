@@ -117,8 +117,10 @@ scons platform=linux api_version=4.7
 ```
 scons platform=android api_version=4.7
 ```
+
 Change the '4.7' version of your godot engine, like 4.4, 4.5, 4.6, 4.7, etc. dont do this like 4.4.0, 4.5.0, 4.6.0, 4.7.0, etc. it may got error in godot engine.
 
+#
 
 * Compile the godot-cpp for editor (this important so no error highlight for clangd)
 ```
@@ -136,8 +138,6 @@ scons platform=linux target=editor compiledb=yes
 ```
 scons platform=android target=editor compiledb=yes
 ```
-
-Change the '4.7' version of your godot engine [godotengine](https://godotengine.org/)
 
 #
 
