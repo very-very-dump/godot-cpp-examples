@@ -12,7 +12,7 @@
 
 ##
 
-* SConstruct
+* SConstruct (Automatic create .gdextension)
 	> lib_name = "WHAA" (your library name)
 	>> project_dir = "project" (your project folder)
 	>>> FileName_dotgdextension = "WHAA.gdextension" (your name 'WHAA', dont forget to put .gdextension)
