@@ -217,7 +217,7 @@ scons platform=android target=template_debug
 scons platform=macos target=template_release
 ```
 ```
-scons platform=iostarget=template_release
+scons platform=ios target=template_release
 ```
 ```
 scons platform=windows target=template_release
